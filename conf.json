@@ -1,0 +1,15 @@
+{
+	"model"           : "inceptionv3",
+	"weights"         : "None",
+	"include_top"     : false,
+
+	"features_path"   : "output/inceptionv3/features.h5",
+	"labels_path"     : "output/inceptionv3/labels.h5",
+	"results"         : "output/inceptionv3/results.txt",
+	"classifier_path" : "output/inceptionv3/classifier.cpickle",
+	"model_path"	  : "output/inceptionv3/model",
+
+	"test_size"       : 0.10,
+	"seed"            : 9,
+	"num_classes"     : 7
+}
